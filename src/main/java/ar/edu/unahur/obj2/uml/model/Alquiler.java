@@ -17,5 +17,15 @@ public class Alquiler {
 
     }
 
+    public LocalDate getFechaInicio(){
+        return fechaInicio;
+    }
 
+    public LocalDate getFechaFin(){
+        return fechaFin;
+    }
+
+    public Vehiculo getVehiculoAlquilado(){
+        return vehiculoAlquilado;
+    }
 }
